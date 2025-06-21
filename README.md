@@ -11,7 +11,7 @@ This compiler project translates source code written in a custom language into C
 - **Tokenization and Parsing:** Utilizes lexical and syntax analysis to process input code.
 - **Semantic Checks:** Ensures code correctness before translation.
 - **Intermediate Code Generation:** Converts parsed structures into executable C code.
-- **Control Structures:** Supports `if`, `else`, `while`, `do-while`, and `for` loops.
+- **Control Structures:** Supports `if`, `else`, `do-while`, and `for` loops.
 - **Function Definitions and Calls:** Handles custom functions and parameter passing.
 - **Error Handling:** Robust error messages for easier debugging.
 - **Web Interface:** Interactive frontend for input and output, using HTML, CSS, and JavaScript.
@@ -46,22 +46,27 @@ FUNCTION square(x)
 ```
 🔁 Translates To C Code
 ```bash
-c
-Copy
-Edit
 #include <stdio.h>
 
-int add(int a, int b) {
-    return a + b;
+int main() {
+    int n = 0;
+    int i = 0;
+    int result = 0;
+    scanf("%d", &n);
+    printf("%d\n", n);
+for (i = 1; (i <= n); i = (i + 1)) {
+    result = square(i);
+    printf("%d\n", result);
 }
 
-int main() {
-    int x = 5;
-    int y = 7;
-    int result = add(x, y);
-    printf("%d\n", result);
     return 0;
 }
+
+int square(int x) {
+    return (x * x);
+
+}
+
 ```
 Set Up the Backend:
 
