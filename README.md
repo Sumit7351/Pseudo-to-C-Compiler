@@ -79,9 +79,8 @@ gcc y.tab.c lex.yy.c -o pseudo_compiler_ -ly -lfl
 
 Run the Flask Application:
 ```bash
-export FLASK_APP=app.py
-flask run
+python app.py
 ```
 Access the Frontend:
 
-Open your browser and navigate to http://localhost:5000 to use the compiler interface.
+🧭 Locate the frontend/front1.html file in your project folder and double-click it to open in your default browser.
