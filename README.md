@@ -6,7 +6,7 @@ Pseudo_code to C code compiler using flex and bison
 
 This compiler project translates source code written in a custom language into C code, integrating both a powerful backend and an interactive frontend for ease of use. The project showcases my skills in full-stack development using HTML, CSS, JavaScript, and Flask.
 
-## 🌟 Features
+##  Features
 
 - **Tokenization and Parsing:** Utilizes lexical and syntax analysis to process input code.
 - **Semantic Checks:** Ensures code correctness before translation.
@@ -17,7 +17,7 @@ This compiler project translates source code written in a custom language into C
 - **Web Interface:** Interactive frontend for input and output, using HTML, CSS, and JavaScript.
 - **Backend Integration:** Flask used to connect frontend and backend seamlessly.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Flex/Bison:** For lexical and syntax analysis.
 - **C Programming Language:** Core language for compiler logic and code generation.
@@ -25,9 +25,9 @@ This compiler project translates source code written in a custom language into C
 - **Flask:** Facilitates communication between the frontend and backend.
 - **Standard Libraries:** Utilized for string manipulation and input/output operations.
 
-## 🔍 Example
+##  Example
 
-### 🧾 Pseudo-Code Input
+###  Pseudo-Code Input
 ```plaintext
 START
 DECLARE n, i, result
@@ -44,7 +44,7 @@ END
 FUNCTION square(x)
   RETURN x * x
 ```
-🔁 Translates To C Code
+ Translates To C Code
 ```bash
 #include <stdio.h>
 
@@ -83,4 +83,4 @@ python app.py
 ```
 Access the Frontend:
 
-🧭 Locate the frontend/front1.html file in your project folder and double-click it to open in your default browser.
+ Locate the frontend/front1.html file in your project folder and double-click it to open in your default browser.
